@@ -43,6 +43,8 @@ dependencies:
   device_info_plus: ^8.0.0  # Ensure the web support is available for your version
   flutter_keyboard_visibility: ^5.0.0  # Ensure web support for this package
 
+  image_picker_for_web: ^2.1.7
+  video_player_web: ^2.0.8
 dev_dependencies:
   flutter_test:
     sdk: flutter
