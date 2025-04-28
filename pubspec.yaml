@@ -20,8 +20,8 @@ dependencies:
   provider: ^6.1.1
   
   # Rich text editor
-  flutter_quill: ^10.5.14
-  
+  flutter_quill: ^8.5.0
+
   # HTTP requests
   http: ^1.1.0
   
