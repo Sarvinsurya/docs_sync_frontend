@@ -37,7 +37,6 @@ dependencies:
   # fluttertoast: ^8.2.4
   
   # For handling date formats - updated to match flutter_quill requirement
-  intl: ^0.19.0
   quill_delta: ^3.0.0-nullsafety.2
 
 dev_dependencies:
