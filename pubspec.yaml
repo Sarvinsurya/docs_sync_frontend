@@ -2,7 +2,7 @@ name: google_docs_clone
 description: A Google Docs clone built with Flutter
 
 # The following line prevents the package from being accidentally published to
-# pub.dev using `pub publish`. This is preferred for private packages.
+# pub.dev using pub publish. This is preferred for private packages.
 publish_to: 'none'
 
 # The following defines the version and build number for your application.
@@ -20,8 +20,8 @@ dependencies:
   provider: ^6.1.1
   
   # Rich text editor
-  flutter_quill: ^8.5.0
-
+  flutter_quill: ^10.5.14
+  
   # HTTP requests
   http: ^1.1.0
   
@@ -37,7 +37,11 @@ dependencies:
   # fluttertoast: ^8.2.4
   
   # For handling date formats - updated to match flutter_quill requirement
+  intl: ^0.19.0
   quill_delta: ^3.0.0-nullsafety.2
+
+  device_info_plus: ^8.0.0  # Ensure the web support is available for your version
+  flutter_keyboard_visibility: ^5.0.0  # Ensure web support for this package
 
 dev_dependencies:
   flutter_test:
